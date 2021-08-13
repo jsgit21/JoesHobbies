@@ -1,0 +1,117 @@
+body {background-color: lightskyblue;}
+
+mark {
+    background-color: rgb(255, 238, 0);
+    color: black;
+}
+
+.pair {
+    border: 3px rgb(0, 0, 0) solid;
+    background-color: lightcyan;
+    padding: 9px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+}
+
+.pad {
+    margin-left:100px;
+}
+
+.padmain {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.padbutton {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+header {
+    background: Steelblue;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0; 
+   list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: lightcyan;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 18px 24px;
+  }
+  
+.button1:hover {
+    background-color: rgb(255, 186, 186);
+    color: black;
+}
