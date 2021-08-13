@@ -4,6 +4,7 @@ This project was completed for an NJIT course
 CS288 Intensive Programming in Linux - https://web.njit.edu/~sohna/cs288/
 This final project utilized LAMP (Linux, Apache, MySQL, PHP)
 
+
 We were expected to find two online stores where we could take 25 items from each. For each item from one store, we had to find a "similar" competing item from the other store essentially giving us 50 individual items but 25 pairs. 
 
 Store the item URLs in text files, I created a shell script that scraped the URLs and saved the HTML files to a temporary folder. Using tagsoup, the HTML files were then converted to XHTML which were fed through a parser which is written in python. Once the information I required to put on my site was gathered, the items were stored in my SQL database. Utilizing HTML/CSS to create the front end, I used PHP to drive it.
