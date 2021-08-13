@@ -1,9 +1,8 @@
 # JoesHobbies
 
-This project was completed for an NJIT course 
-CS288 Intensive Programming in Linux - https://web.njit.edu/~sohna/cs288/
+This project was completed for an NJIT course<br>
+CS288 Intensive Programming in Linux - https://web.njit.edu/~sohna/cs288/<br>
 This final project utilized LAMP (Linux, Apache, MySQL, PHP)
-
 
 We were expected to find two online stores where we could take 25 items from each. For each item from one store, we had to find a "similar" competing item from the other store essentially giving us 50 individual items but 25 pairs. 
 
