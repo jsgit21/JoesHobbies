@@ -4,11 +4,9 @@ This project was completed for an NJIT course<br>
 CS288 Intensive Programming in Linux - https://web.njit.edu/~sohna/cs288/ (Not exact professor)<br>
 This final project utilized LAMP (Linux, Apache, MySQL, PHP)
 
-We were expected to find two online stores where we could take 25 items from each. For each item from one store, we had to find a "similar" competing item from the other store essentially giving us 50 individual items but 25 pairs. 
+For this project, I had to find two online stores that I could take 25 items from each. For each item from one store, I had to find a "similar" competing item from the other store essentially giving me 50 individual items but 25 pairs. With this information I was tasked with creating a "drop-shipping" website, where all the items would be listed. Once a user chooses an item to purchase, it would display to them the item they selected along with a similar item from the competing store. Whichever item is cheaper should be highlighted in some way as to lead the user to a better deal.
 
-Store the item URLs in text files, I created a shell script that scraped the URLs and saved the HTML files to a temporary folder. Using tagsoup, the HTML files were then converted to XHTML which were fed through a parser which is written in python. Once the information I required to put on my site was gathered, the items were stored in my SQL database. Utilizing HTML/CSS to create the front end, I used PHP to drive it.
-
-Here are some screenshots of what the website looks like:
+Storing the item URLs in text files, I created a shell script that scraped the URLs and saved the HTML files to a temporary folder. Using tagsoup, the HTML files were then converted to XHTML which were fed through a parser written in python. Once the information I required to put on my site was gathered, the items were stored in a MySQL database. Utilizing HTML/CSS to create the front end, I used PHP to drive it.
 
 Homepage:
 ![alt text](https://github.com/jsgit21/JoesHobbies/blob/main/README_screenshots/home.png?raw=true)
