@@ -11,6 +11,7 @@ Storing the item URLs in text files, I created a shell script that scraped the U
 
 **Homepage:**
 ![Home image](https://github.com/jsgit21/JoesHobbies/blob/main/README_screenshots/home.png?raw=true)
+![Home image](https://github.com/jsgit21/JoesHobbies/blob/main/README_screenshots/home2.png?raw=true)
 
 
 **About:**<br>
